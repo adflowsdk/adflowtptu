@@ -1,0 +1,6 @@
+before_install:
+  - echo "Skipping default build"
+
+install:
+  - mvn install:install-file -Dfile=adflowtp-3.1.01.aar -DgroupId=com.adflow.sdk -DartifactId=adflowtp -Dversion=3.1.01 -Dpackaging=aar -DgeneratePom=true -DlocalRepositoryPath=/home/jitpack/.m2/repository
+  - ls -l /home/jitpack/.m2/repository/com/adflow/sdk/adflowtp/3.1.01  # 调试
