@@ -65,7 +65,7 @@ dependencies {
     implementation("com.github.adflowsdk:adflowtptu:3.1.04")
     
 }
-Note: 'com.github.adflowsdk:adflowtp:2.2.12' is based on the TopOn version library: com.anythink.sdk:core-tpn:6.4.87
+Note: Sdk is based on the TopOn version library: com.anythink.sdk:core-tpn:6.4.87
 Please use the corresponding version. If the version is different, please contact customer service.
 
 You may also need to add the following to your project/build.gradle file.
