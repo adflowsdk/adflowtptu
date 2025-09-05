@@ -1,0 +1,6 @@
+before_install:
+  - echo "Skipping default build"
+
+install:
+  - mvn install:install-file -Dfile=adflowads-6.4.87.01.aar -DgroupId=com.adflow.sdk -DartifactId=adflowtptu -Dversion=6.4.87.01 -Dpackaging=aar -DgeneratePom=true -DlocalRepositoryPath=/home/jitpack/.m2/repository
+  - ls -l /home/jitpack/.m2/repository/com/adflow/sdk/adflowtptu/6.4.87.01  # 调试
