@@ -62,7 +62,7 @@ Adflow SDKs are published to jitpack as independent modules. To utilize a featur
 
 dependencies {
 
-    implementation("com.github.adflowsdk:adflowtptu:3.1.04")
+    implementation("com.github.adflowsdk:adflowtptu:6.5.10.03")
     
 }
 Note: Sdk is based on the TopOn version library: com.thinkup.sdk:core-tpn:6.5.10
